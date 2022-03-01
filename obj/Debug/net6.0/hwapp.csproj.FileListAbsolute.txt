@@ -1,0 +1,15 @@
+/home/shiva/hwapp/bin/Debug/net6.0/hwapp
+/home/shiva/hwapp/bin/Debug/net6.0/hwapp.deps.json
+/home/shiva/hwapp/bin/Debug/net6.0/hwapp.runtimeconfig.json
+/home/shiva/hwapp/bin/Debug/net6.0/hwapp.dll
+/home/shiva/hwapp/bin/Debug/net6.0/hwapp.pdb
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.csproj.AssemblyReference.cache
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.GeneratedMSBuildEditorConfig.editorconfig
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.AssemblyInfoInputs.cache
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.AssemblyInfo.cs
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.csproj.CoreCompileInputs.cache
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.dll
+/home/shiva/hwapp/obj/Debug/net6.0/refint/hwapp.dll
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.pdb
+/home/shiva/hwapp/obj/Debug/net6.0/hwapp.genruntimeconfig.cache
+/home/shiva/hwapp/obj/Debug/net6.0/ref/hwapp.dll
