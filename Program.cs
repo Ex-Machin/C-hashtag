@@ -10,22 +10,23 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            bool isMale = false;
-            bool isTall = false;
-
-            if (isMale && isTall)
+            Console.WriteLine(GetMax(1, 1, 3));
+        }
+        static int GetMax(int num1, int num2, int num3) 
+        {
+            int result = 0;
+            if (num1 >= num2 && num1 >= num3)
             {
-                Console.WriteLine("You are a tall male");
-            } else if(isMale && !isTall)
+                result = num1;
+            } else if (num2 > num1 && num2 >= num3) 
             {
-                Console.WriteLine("You are a male but not tall");
-            } else if(!isMale && isTall)
-            {
-                Console.WriteLine("You are tall but not male ");
+                result = num2;
             } else 
             {
-                Console.WriteLine("You are not short woman \noh no...");
+                result = num3;
             }
+
+            return result;
         }
     }
 }
