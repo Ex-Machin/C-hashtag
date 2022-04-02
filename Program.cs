@@ -10,12 +10,10 @@ namespace hwapp
     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("Jim", "Business", 2.8);
-            Student student2 = new Student("Li", "CS", 4.8);
+            Movie avengers = new Movie("The Avangers", "Joss Whedon", "Dog");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
 
-            Console.WriteLine(student1.HasHonors());
-            Console.WriteLine(student2.HasHonors());
-
+            Console.WriteLine(avengers.Rating);
         }
     }
 }
