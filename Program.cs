@@ -10,10 +10,13 @@ namespace hwapp
     {
         static void Main(string[] args)
         {
-            Movie avengers = new Movie("The Avangers", "Joss Whedon", "Dog");
-            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            
+            Console.WriteLine(Song.songCount);
 
-            Console.WriteLine(avengers.Rating);
+            Song kashmir = new Song("Kashimir", "Led Zeppelin", 150);
+
+            Console.WriteLine(kashmir.getSongCount());
         }
     }
 }
