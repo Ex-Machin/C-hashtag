@@ -10,12 +10,32 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            int index = 6;
+            string secretWord = "Yale";
+            string quess = "";
+            int quessCount = 0;
+            int quessLimit = 3;
+            bool outOfQuesses = false;
+
             do
             {
-                Console.WriteLine(index);
-                index++;
-            } while (index <= 5);
+                if (quessCount < quessLimit) 
+                {
+                    Console.Write("Enter quess: ");
+                    quess = Console.ReadLine();
+                    quessCount++;
+                } else 
+                {
+                    outOfQuesses = true;
+                }
+            } while(quess != secretWord && !outOfQuesses);
+
+            if(!outOfQuesses) 
+            {
+                Console.WriteLine("You Win!");
+            } else 
+            {
+                Console.WriteLine("You Lose!");
+            }
         }
     }
 }
