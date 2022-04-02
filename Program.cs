@@ -10,11 +10,16 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            int [] luckyNumbers = {4,5,6,7,8,9};
-            for (int i = 0; i < luckyNumbers.Length; i++) 
+            Console.WriteLine(GetPow(3,2));
+        }
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+            for (int i = 0; i < powNum; i++) 
             {
-                Console.WriteLine(luckyNumbers[i]);
+                result = result * baseNum; 
             }
+            return result;
         }
     }
 }
