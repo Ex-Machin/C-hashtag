@@ -10,13 +10,14 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-
-            SayHi("Sara", 23);
+            int cubeNumber = cube(5);
+            Console.WriteLine(cubeNumber);
         }
 
-        static void SayHi(string name, int age) 
+        static int  cube(int num) 
         {
-            Console.WriteLine("Hello " + name + " you are " + age);
+            int result  = num * num * num;
+            return result;
         }
     }
 }
