@@ -1,25 +1,23 @@
 ﻿using System;
 
-public class Cuboid 
-{
-    public int a = 0;
-    public int b = 0;
-    public int h = 0;
-
-    public int Volume()
-    {
-        return a * b * h;
-    }
-}
-
-public class Program 
+public class main 
 {
     public static void Main()
     {
-        Cuboid cuboid = new Cuboid();
-        cuboid.a = 1;
-        cuboid.b = 2;
-        cuboid.h = 45;
-        Console.WriteLine(cuboid.Volume());
+        int[][] tablica = new int[4][];
+        tablica[0] = new int[4] {1,2,3,4};
+        tablica[1] = new int[2] {5,6};
+        tablica[2] = new int[3] {7,8,9};
+        tablica[3] = new int[1] {10};
+
+        for (int i = 0; i<tablica.Length; i++) 
+        {
+            Console.WriteLine(" numer wiersza [{0}]", i);
+            for (int j = 0; j < tablica[i].Length; j++) 
+            {
+                Console.WriteLine("[{0}]", tablica[i][j]);
+            }
+             Console.WriteLine("");
+        }
     }
 }

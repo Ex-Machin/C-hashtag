@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shiva/hwapp/hwapp.csproj",
+      "projectUniqueName": "/home/shiva/WSB/2 Semestr/Programmowanie Objektowe/hwapp/hwapp.csproj",
       "projectName": "hwapp",
-      "projectPath": "/home/shiva/hwapp/hwapp.csproj",
+      "projectPath": "/home/shiva/WSB/2 Semestr/Programmowanie Objektowe/hwapp/hwapp.csproj",
       "packagesPath": "/home/shiva/.nuget/packages/",
-      "outputPath": "/home/shiva/hwapp/obj/",
+      "outputPath": "/home/shiva/WSB/2 Semestr/Programmowanie Objektowe/hwapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/shiva/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
