@@ -10,16 +10,14 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetPow(3,2));
-        }
-        static int GetPow(int baseNum, int powNum)
-        {
-            int result = 1;
-            for (int i = 0; i < powNum; i++) 
-            {
-                result = result * baseNum; 
-            }
-            return result;
+           int [,] numberGrid = {
+                {1, 3},
+                {3, 4},
+                {4, 6}
+           };
+           int[,] myArray = new int[2,3];
+
+           Console.WriteLine(numberGrid[1, 1]);
         }
     }
 }
