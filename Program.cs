@@ -10,14 +10,15 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-           int [,] numberGrid = {
-                {1, 3},
-                {3, 4},
-                {4, 6}
-           };
-           int[,] myArray = new int[2,3];
 
-           Console.WriteLine(numberGrid[1, 1]);
+            // writing line that consoles a strin "Comments are fun"))))))))) 
+            /*
+
+            what am i doing...
+
+            */
+
+            Console.WriteLine("Comments are fun");
         }
     }
 }
