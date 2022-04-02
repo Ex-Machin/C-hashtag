@@ -4,28 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Giraffe 
+namespace hwapp 
 {
     class Program
     {
         static void Main(string[] args)
         {
-            try 
-            {
-                Console.Write("Enter a number: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Enter a number: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(num1 / num2);
-            } catch (DivideByZeroException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-           
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
+
+            Book book2 = new Book();
+            book2.title = "Lord of the Rings";
+            book2.author = "Tolkein";
+            book2.pages = 700;
+
+            Console.WriteLine(book2.pages);
         }
     }
 }
