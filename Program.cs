@@ -10,10 +10,11 @@ namespace hwapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Math.Sqrt(144));
-            // Здесь нам не нужно создавать instance для Math - класса 
-            // Так как у него есть static метод 
-            UsefulTools.SayHi("Dima");
+            Chef chef = new Chef();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeSpecialDish();
         }
     }
 }
