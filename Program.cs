@@ -10,13 +10,10 @@ namespace hwapp
     {
         static void Main(string[] args)
         {
-            Song holiday = new Song("Holiday", "Green Day", 200);
-            
-            Console.WriteLine(Song.songCount);
-
-            Song kashmir = new Song("Kashimir", "Led Zeppelin", 150);
-
-            Console.WriteLine(kashmir.getSongCount());
+            Console.WriteLine(Math.Sqrt(144));
+            // Здесь нам не нужно создавать instance для Math - класса 
+            // Так как у него есть static метод 
+            UsefulTools.SayHi("Dima");
         }
     }
 }
