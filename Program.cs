@@ -10,15 +10,22 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-
-            // writing line that consoles a strin "Comments are fun"))))))))) 
-            /*
-
-            what am i doing...
-
-            */
-
-            Console.WriteLine("Comments are fun");
+            try 
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter a number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(num1 / num2);
+            } catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+           
         }
     }
 }
